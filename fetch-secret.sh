@@ -2,12 +2,11 @@
 
 cd python-script-repo
 
-VAULT_ADDR: 'http://192.168.3.112:8200'
-VAULT_TOKEN: 'root'
+export VAULT_ADDR: 'http://192.168.3.112:8200'
+export VAULT_TOKEN: 'root'
 
 # Export environment variables
-export VAULT_ADDR="$VAULT_ADDR"
-export VAULT_TOKEN="$VAULT_TOKEN"
+
 
 # Fetch name secret from Vault
 name=$(vault kv get -field=name secret/myapp)
