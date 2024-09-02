@@ -1,11 +1,8 @@
-#!/bin/bash
+export VAULT_ADDR='http://192.168.3.112:8200'
+export VAULT_TOKEN='root'
 
-cd python-script-repo
 
-export VAULT_ADDR: 'http://192.168.3.112:8200'
-export VAULT_TOKEN: 'root'
 
-# Export environment variables
 
 
 # Fetch name secret from Vault
