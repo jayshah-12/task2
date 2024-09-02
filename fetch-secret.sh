@@ -2,8 +2,8 @@
 
 cd python-script-repo
 
-echo "Vault Address: $VAULT_ADDR"
-echo "Vault Token: $VAULT_TOKEN"
+VAULT_ADDR: 'http://192.168.3.112:8200'
+VAULT_TOKEN: 'root'
 
 # Export environment variables
 export VAULT_ADDR="$VAULT_ADDR"
